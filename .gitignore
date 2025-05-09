@@ -1,0 +1,25 @@
+# Large files that exceed GitHub's file size limits
+traces/dijkstra_trace_*.txt
+traces/bellman_ford_trace_*.txt
+performance/dijkstra_trace_*.txt
+performance/bellman_ford_trace_*.txt
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
