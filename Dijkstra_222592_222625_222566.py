@@ -343,9 +343,8 @@ def main():
     os.makedirs("times", exist_ok=True)
     
     graph = Graph()
-    
-    # Get the current directory
-    data_file = "c:\\Users\\Hp\\Desktop\\Algo-Project\\soc-sign-bitcoinalpha.csv"
+      # Get the current directory
+    data_file = os.path.join(os.path.dirname(__file__), "soc-sign-bitcoinalpha.csv")
     
     print("Loading Bitcoin Alpha dataset...")
     graph.load_from_file(data_file)
