@@ -1,5 +1,0 @@
-Dijkstra's Algorithm Execution Time
-Source node: 10
-Number of nodes: 3783
-Number of edges: 24186
-Execution time: 24.258923 seconds

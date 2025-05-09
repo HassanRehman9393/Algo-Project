@@ -1,8 +1,9 @@
-# Large files that exceed GitHub's file size limits
-traces/dijkstra_trace_*.txt
-traces/bellman_ford_trace_*.txt
-performance/dijkstra_trace_*.txt
-performance/bellman_ford_trace_*.txt
+# Exclude entire folders containing large files
+performance/
+results/
+traces/
+times/
+visualization/
 
 # Python cache files
 __pycache__/
